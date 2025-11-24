@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1" >
+  <meta name="description" content="Progressive Web Design principles." >
+  <title>Progressive Web Design — Williamson Jacorey Exercise</title>
+  <link rel="stylesheet" href="css/main.css" >
+</head>
+<body>
+  <div class="wrapper">
+    <!-- title + main navigation -->
+    <header class="site-header">
+      <h1>Progressive Web Design</h1>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#intro">Introduction</a></li>
+          <li><a href="#principles">Principles</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main class="content">
+      <section id="intro" class="panel intro">
+        <h2>Introduction</h2>
+        <p>
+          Progressive Web Design blends modern HTML structure with accessible semantics to create web pages that are reliable, fast, and engaging.
+          This short exercise demonstrates headings, lists, links, an image, inline emphasis, and in‑page navigation using semantic elements.
+        </p>
+      </section>
+
+      <section id="principles" class="panel principles">
+        <h2>Principles of Good Web Design</h2>
+
+        <header>
+          <h3>Accessibility and Semantics</h3>
+        </header>
+
+        <p>
+          Use meaningful elements so assistive technology can interpret your content. For example,
+          mark important text with <strong>strong</strong> and stress or emphasis with <em>em</em>.
+        </p>
+
+        <!-- Unordered list of key practices -->
+        <h4>Key practices</h4>
+        <ul>
+          <li>Use one <strong>h1</strong> element per page.</li>
+          <li>Prefer semantic elements like <strong>header</strong>, <strong>main</strong>, and <strong>section</strong></li>
+          <li>Provide descriptive <strong>alt</strong> text for images to offer accessibility.</li>
+        </ul>
+      </section>
+
+      <!-- Resources section with external link and image -->
+      <section id="resources" class="panel resources">
+        <h2>Resources</h2>
+        <p>
+          For more information on this topic, see the Wikipedia article on <strong>Responsive Web Design</strong>.
+          <a href="https://en.wikipedia.org/wiki/Responsive_web_design" target="_blank" rel="noopener noreferrer">Read on Wikipedia</a>
+        </p>
+
+        <p>
+          Below is a demonstration image. The <strong>alt</strong> text is descriptive and for accessibility purposes.
+        </p>
+
+        <figure>
+          <img src="images/img1.jpeg" alt="Laptop on a desk showing code in a code editor.">
+          <figcaption>Example: laptop showing code</figcaption>
+        </figure>
+      </section>
+
+      <!-- Contact section with link back to Resources -->
+      <section id="contact" class="panel contact">
+        <h2>Contact</h2>
+        <p>
+          Need help? Visit the <a href="#resources">Resources</a> section.
+        </p>
+      </section>
+    </main>
+
+    <!-- Footer with copyright notice -->
+    <footer class="site-footer">
+      <p>© 2025 Williamson Jacorey — IWA Exercise</p>
+    </footer>
+  </div>
+</body>
+</html>
