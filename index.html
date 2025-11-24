@@ -72,12 +72,46 @@
         </figure>
       </section>
 
-      <!-- Contact section with link back to Resources -->
+      <!-- Contact section with form (replaced per assignment) -->
       <section id="contact" class="panel contact">
         <h2>Contact</h2>
-        <p>
-          Need help? Visit the <a href="#resources">Resources</a> section.
-        </p>
+
+        <form id="contact-form" action="#" method="post" novalidate>
+          <div class="form-row">
+            <label for="first-name">First name</label>
+            <input id="first-name" name="firstName" type="text" required minlength="2" maxlength="40">
+          </div>
+
+          <div class="form-row">
+            <label for="last-name">Last name</label>
+            <input id="last-name" name="lastName" type="text" required minlength="2" maxlength="40">
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+
+          <div class="form-row">
+            <label for="age">Age</label>
+            <input id="age" name="age" type="number" min="0" max="120" inputmode="numeric" aria-describedby="age-help">
+            <small id="age-help" class="visually-hidden">Enter your age in years</small>
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required minlength="10" maxlength="1000"></textarea>
+          </div>
+
+          <div class="form-row form-check">
+            <input id="subscribe" name="subscribe" type="checkbox">
+            <label for="subscribe">Subscribe to updates</label>
+          </div>
+
+          <div class="form-row">
+            <button type="submit">Send message</button>
+          </div>
+        </form>
       </section>
     </main>
 
@@ -86,5 +120,7 @@
       <p>© 2025 Williamson Jacorey — IWA Exercise</p>
     </footer>
   </div>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
